@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c8600sg0bll2a"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(19, 5)
+
+[node name="GameUI" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="GameUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1153.0
+offset_bottom = 649.0
+mouse_filter = 2

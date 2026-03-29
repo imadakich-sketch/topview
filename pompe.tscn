@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cguq8m7o8xrd3"]
+
+[ext_resource type="Texture2D" uid="uid://bwv6xy0u18kgn" path="res://assets/PompeEau 1.png" id="1_nwv6x"]
+
+[node name="Pompe" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(312, 205)
+texture = ExtResource("1_nwv6x")

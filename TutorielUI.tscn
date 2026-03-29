@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=3 uid="uid://bs83kmin2hx5i"]
+
+[ext_resource type="Texture2D" uid="uid://dwna18aywhl04" path="res://assets/téléchargement (1).png" id="2_yqyic"]
+
+[node name="eco general" type="Node2D"]
+
+[node name="TutorielUI" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="TutorielUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1151.0
+offset_bottom = 648.0
+mouse_filter = 2
+
+[node name="Avatar" type="TextureRect" parent="TutorielUI/Control"]
+layout_mode = 0
+offset_left = 854.0
+offset_top = 214.0
+offset_right = 1198.0
+offset_bottom = 648.0
+texture = ExtResource("2_yqyic")
+
+[node name="Panel" type="Panel" parent="TutorielUI/Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.41000003
+anchor_bottom = 0.132
+offset_left = 892.0
+offset_top = 377.0
+offset_right = 581.08997
+offset_bottom = 373.464
+
+[node name="Label" type="Label" parent="TutorielUI/Control/Panel"]
+layout_mode = 0
+offset_right = 150.0
+offset_bottom = 55.0
+text = "Hey ready to help my island ?
+"
+autowrap_mode = 3
+
+[node name="Button" type="Button" parent="TutorielUI/Control/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.21400002
+anchor_bottom = 0.5
+offset_left = 117.0
+offset_top = 44.0
+offset_right = 117.044
+offset_bottom = 45.0
+text = "GO"

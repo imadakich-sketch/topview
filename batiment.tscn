@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://coagqd7rtqh58"]
+
+[ext_resource type="Texture2D" uid="uid://cge44s55medws" path="res://assets/Double_canon_29_niv7.webp" id="1_40d5s"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -9)
+scale = Vector2(0.103773534, 0.071428545)
+texture = ExtResource("1_40d5s")
